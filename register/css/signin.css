@@ -1,0 +1,211 @@
+
+body {
+  background-image: url('../../images/8.jpg');
+   background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font: 100%/1.375 "helvetica neue", helvetica, tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* ------------Header-------- */ 
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    width: 100%;
+    top:0;
+  }
+  .logo{
+      float: left;
+      margin-top:9px;
+      margin-left: 10px;
+  }
+  li {
+    float: right;
+    margin-right: 50px;
+    margin-top: 4px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 20px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #1565CF    ;
+  }
+  
+  .login{
+    background-color: #1565CF    ;
+    border-radius: 4px;
+    border: 1px solid #80aaff;
+    padding: 10px 10px;
+    margin-top:5px;
+  }
+  .login:hover {
+    border-radius: 4px;
+    border: 1px solid #80aaff;
+    padding: 10px 10px;
+}
+
+
+/* ------------Footer-------- */ 
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+
+footer .links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+footer .links a{
+	display:inline-block;
+	text-decoration: none;
+}
+.footer_link{
+  color: white;
+}
+
+
+
+
+/*----log in page----*/
+
+
+.login-page {
+  width: 528px;
+  padding: 8% 32% 0;
+  margin: auto;
+}
+.form {
+  background: #FFFFFF;
+  max-width: 360px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px;
+  background-color:rgba(255, 255, 255, 0.521);
+}
+.field {
+  font-family:sans-serif;
+  background: #C0C0C0;
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-radius: 5px;
+}
+/* .form button {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background: #363636;
+  width: 100%;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+} */
+.form button:hover,.form button:active,.form button:focus {
+  background: #4169E1;
+}
+.form .message {
+  margin: 15px;
+  color: #1c49db;
+  font-size: 13px;
+}
+.form .message a {
+  color: #4F4F4F;
+}
+
+.form label {
+   float: left;
+   font-family:sans-serif;
+}
+
+
+/*----sign up page-----*/
+
+.two-column-box {
+  margin-top:10px;
+  display: flex;
+  justify-content: space-around;
+  padding:150px;
+}
+
+.two-column-box > div {
+  width: 100%;
+  max-width: 700px;
+  border:none;
+  background-color:rgba(255, 255, 255, 0.521);
+  max-width: 360px;
+  padding: 100px;
+  text-align: center;
+ box-shadow: 0 0 20px
+}
+
+.two-column-box > div:first-child {
+  margin-right: 10px;
+}
+
+.two-column-box button {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  background: #363636;
+  width: 100%;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+ }
+
+.two-column-box button:hover,.form button:active,.form button:focus {
+  background: #4169E1;
+}
+
+/*----table-----*/
+
+.table1 {
+  background: #FFFFFF;
+  max-width:800px;
+  padding: 50px;
+  text-align: center;
+  box-shadow: 0 0 20px;
+}
+
+.table2 {
+  
+  width: 800px;
+  padding: 8% 22% 0;
+  margin: auto;
+
+}
+
+.btn{
+  background-color: #3D7BF6;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 100%;
+  }
+  

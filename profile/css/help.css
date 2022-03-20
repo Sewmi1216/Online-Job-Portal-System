@@ -1,0 +1,24 @@
+.btn {
+    width: 380px;
+    background-color: #5995fd;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: .3rem;
+    /* display: block; */
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .btn.transparent:hover {
+    background-color: white;
+    color: #4d84e2;
+  }
+  
+  .btn:hover {
+    background-color: #4d84e2;
+  }

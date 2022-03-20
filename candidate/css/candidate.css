@@ -1,0 +1,84 @@
+/* ------------Candidate-Home-------- */ 
+.container {
+    padding: 30px;
+    border: 5px outset;    
+    text-align: left;
+    width:1100px;
+    margin:auto;
+    background-color:rgba(255, 255, 255, 0.521);
+  }
+ 
+  .posts {
+    background-color:#e6ecff;
+    vertical-align: top;
+    display: inline-block;
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    padding-bottom:20px;
+    margin-right:-24px;
+    margin-left:32px;
+  }
+  
+  .posts:hover {
+    background: #81bbf583;
+  }
+  
+  .posts a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.5em;
+    width: 60px;
+    height: 30px;
+    color: #2980b9;
+  }
+  .ad{
+    display: block;
+    margin-top: 0em;
+  }
+  .btnapply{
+    margin-top:5px;
+    padding-left:30px;
+    background-color: #1565CF;
+    color: white;
+    border: 1px solid bla;
+    cursor:pointer;
+  }
+  
+  /* ------------search-------- */
+  .setHorizontalCenter {
+    margin-left: auto;
+    margin-right: auto;
+}
+.alignLeft {
+    float: left;
+}
+.btnBlue {
+    background-color: #1565CF;
+    border: 1px solid #1565CF;
+    color: white;
+}
+
+ /* ------------application-------- */
+ .labels{
+     font-size:15px;
+ }
+
+.para{
+    font-size:15px;
+}
+.title{
+    font-size:25px;
+    text-decoration:bold;
+}
+table, th, td {
+  border-bottom: 1px solid black;
+  border-collapse: collapse;
+}
+th, td{
+  width: 200px;
+  text-align: left;
+  padding: 10px;
+}
+/* tr:hover {background-color: white;} */

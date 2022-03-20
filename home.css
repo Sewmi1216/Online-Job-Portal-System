@@ -1,0 +1,97 @@
+
+body {
+    font: 100%/1.375 "helvetica neue", helvetica, tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.content{
+  /* background-color: #EFEFEF; */
+  background-image: url('images/about.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  font: 100%/1.375 "helvetica neue", helvetica, tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------Header-------- */ 
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+  }
+  .logo{
+      float: left;
+      margin-top:9px;
+      margin-left: 10px;
+  }
+  li {
+    float: right;
+    margin-right: 50px;
+    margin-top: 4px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 16px 20px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #1565CF    ;
+  }
+  
+  .login{
+    background-color: #1565CF    ;
+    border-radius: 4px;
+    border: 1px solid #80aaff;
+    padding: 10px 10px;
+    margin-top:5px;
+  }
+  .login:hover {
+    border-radius: 4px;
+    border: 1px solid #80aaff;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+
+/* ------------Footer-------- */ 
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+  }
+
+footer .links{
+	color:  #ffffff;
+	margin: 0 0 10px;
+	padding: 0;
+}
+
+footer .links a{
+	display:inline-block;
+	text-decoration: none;
+}
+.footer_link{
+  color: white;
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.267);
+  padding: 100px;
+}
+h1, h2, h3{
+  text-decoration: bold;
+  color:black;
+}
